@@ -1,0 +1,293 @@
+2017-09-18 23:02:52 [main] INFO 	com.erp.erp.ErpApplication-[StartupInfoLogger.java:48]-Starting ErpApplication on harshit-ubuntu with PID 9538 (/home/harshit/ERP/erp/target/classes started by harshit in /home/harshit/ERP/erp)
+2017-09-18 23:02:52 [main] INFO 	com.erp.erp.ErpApplication-[SpringApplication.java:593]-No active profile set, falling back to default profiles: default
+2017-09-18 23:02:52 [main] INFO 	o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext-[AbstractApplicationContext.java:583]-Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1a0dcaa: startup date [Mon Sep 18 23:02:52 IST 2017]; root of context hierarchy
+2017-09-18 23:02:53 [background-preinit] INFO 	o.h.validator.internal.util.Version-[Version.java:30]-HV000001: Hibernate Validator 5.3.5.Final
+2017-09-18 23:02:54 [main] INFO 	o.s.b.c.e.t.TomcatEmbeddedServletContainer-[TomcatEmbeddedServletContainer.java:89]-Tomcat initialized with port(s): 8656 (http)
+2017-09-18 23:02:54 [main] INFO 	o.a.catalina.core.StandardService-[DirectJDKLog.java:179]-Starting service [Tomcat]
+2017-09-18 23:02:54 [main] INFO 	o.a.catalina.core.StandardEngine-[DirectJDKLog.java:179]-Starting Servlet Engine: Apache Tomcat/8.5.20
+2017-09-18 23:02:55 [localhost-startStop-1] INFO 	o.a.c.c.C.[.[localhost].[/erp]-[DirectJDKLog.java:179]-Initializing Spring embedded WebApplicationContext
+2017-09-18 23:02:55 [localhost-startStop-1] INFO 	o.s.web.context.ContextLoader-[EmbeddedWebApplicationContext.java:276]-Root WebApplicationContext: initialization completed in 2515 ms
+2017-09-18 23:02:55 [localhost-startStop-1] INFO 	o.s.b.w.s.ServletRegistrationBean-[ServletRegistrationBean.java:190]-Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-18 23:02:55 [localhost-startStop-1] INFO 	o.s.b.w.s.FilterRegistrationBean-[AbstractFilterRegistrationBean.java:258]-Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-09-18 23:02:55 [localhost-startStop-1] INFO 	o.s.b.w.s.FilterRegistrationBean-[AbstractFilterRegistrationBean.java:258]-Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-09-18 23:02:55 [localhost-startStop-1] INFO 	o.s.b.w.s.FilterRegistrationBean-[AbstractFilterRegistrationBean.java:258]-Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-09-18 23:02:55 [localhost-startStop-1] INFO 	o.s.b.w.s.FilterRegistrationBean-[AbstractFilterRegistrationBean.java:258]-Mapping filter: 'requestContextFilter' to: [/*]
+2017-09-18 23:02:55 [main] INFO 	o.s.w.s.m.m.a.RequestMappingHandlerAdapter-[RequestMappingHandlerAdapter.java:534]-Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1a0dcaa: startup date [Mon Sep 18 23:02:52 IST 2017]; root of context hierarchy
+2017-09-18 23:02:55 [main] INFO 	o.s.w.s.m.m.a.RequestMappingHandlerMapping-[AbstractHandlerMethodMapping.java:543]-Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-18 23:02:55 [main] INFO 	o.s.w.s.m.m.a.RequestMappingHandlerMapping-[AbstractHandlerMethodMapping.java:543]-Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-18 23:02:55 [main] INFO 	o.s.w.s.h.SimpleUrlHandlerMapping-[AbstractUrlHandlerMapping.java:362]-Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-18 23:02:55 [main] INFO 	o.s.w.s.h.SimpleUrlHandlerMapping-[AbstractUrlHandlerMapping.java:362]-Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-18 23:02:55 [main] INFO 	o.s.w.s.h.SimpleUrlHandlerMapping-[AbstractUrlHandlerMapping.java:362]-Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-18 23:02:56 [main] INFO 	o.s.j.e.a.AnnotationMBeanExporter-[MBeanExporter.java:431]-Registering beans for JMX exposure on startup
+2017-09-18 23:02:56 [main] INFO 	o.a.coyote.http11.Http11NioProtocol-[DirectJDKLog.java:179]-Initializing ProtocolHandler ["http-nio-8656"]
+2017-09-18 23:02:56 [main] INFO 	o.a.coyote.http11.Http11NioProtocol-[DirectJDKLog.java:179]-Starting ProtocolHandler ["http-nio-8656"]
+2017-09-18 23:02:56 [main] INFO 	o.a.tomcat.util.net.NioSelectorPool-[DirectJDKLog.java:179]-Using a shared selector for servlet write/read
+2017-09-18 23:02:56 [main] INFO 	o.s.b.c.e.t.TomcatEmbeddedServletContainer-[TomcatEmbeddedServletContainer.java:201]-Tomcat started on port(s): 8656 (http)
+2017-09-18 23:02:56 [main] INFO 	com.erp.erp.ErpApplication-[StartupInfoLogger.java:57]-Started ErpApplication in 4.475 seconds (JVM running for 4.813)
+2017-09-18 23:06:23 [http-nio-8656-exec-1] INFO 	o.a.c.c.C.[.[localhost].[/erp]-[DirectJDKLog.java:179]-Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-09-18 23:06:23 [http-nio-8656-exec-1] INFO 	o.s.web.servlet.DispatcherServlet-[FrameworkServlet.java:489]-FrameworkServlet 'dispatcherServlet': initialization started
+2017-09-18 23:06:23 [http-nio-8656-exec-1] INFO 	o.s.web.servlet.DispatcherServlet-[FrameworkServlet.java:508]-FrameworkServlet 'dispatcherServlet': initialization completed in 15 ms
+2017-09-18 23:06:31 [Thread-3] INFO 	o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext-[AbstractApplicationContext.java:984]-Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1a0dcaa: startup date [Mon Sep 18 23:02:52 IST 2017]; root of context hierarchy
+2017-09-18 23:06:31 [Thread-3] INFO 	o.s.j.e.a.AnnotationMBeanExporter-[MBeanExporter.java:449]-Unregistering JMX-exposed beans on shutdown
+2017-09-18 23:06:36 [main] INFO 	com.erp.erp.ErpApplication-[StartupInfoLogger.java:48]-Starting ErpApplication on harshit-ubuntu with PID 9687 (/home/harshit/ERP/erp/target/classes started by harshit in /home/harshit/ERP/erp)
+2017-09-18 23:06:36 [main] INFO 	com.erp.erp.ErpApplication-[SpringApplication.java:593]-No active profile set, falling back to default profiles: default
+2017-09-18 23:06:36 [main] INFO 	o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext-[AbstractApplicationContext.java:583]-Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1a0dcaa: startup date [Mon Sep 18 23:06:36 IST 2017]; root of context hierarchy
+2017-09-18 23:06:36 [background-preinit] INFO 	o.h.validator.internal.util.Version-[Version.java:30]-HV000001: Hibernate Validator 5.3.5.Final
+2017-09-18 23:06:37 [main] INFO 	o.s.b.c.e.t.TomcatEmbeddedServletContainer-[TomcatEmbeddedServletContainer.java:89]-Tomcat initialized with port(s): 8656 (http)
+2017-09-18 23:06:37 [main] INFO 	o.a.catalina.core.StandardService-[DirectJDKLog.java:179]-Starting service [Tomcat]
+2017-09-18 23:06:37 [main] INFO 	o.a.catalina.core.StandardEngine-[DirectJDKLog.java:179]-Starting Servlet Engine: Apache Tomcat/8.5.20
+2017-09-18 23:06:37 [localhost-startStop-1] INFO 	o.a.c.c.C.[.[localhost].[/erp]-[DirectJDKLog.java:179]-Initializing Spring embedded WebApplicationContext
+2017-09-18 23:06:37 [localhost-startStop-1] INFO 	o.s.web.context.ContextLoader-[EmbeddedWebApplicationContext.java:276]-Root WebApplicationContext: initialization completed in 1264 ms
+2017-09-18 23:06:37 [localhost-startStop-1] INFO 	o.s.b.w.s.ServletRegistrationBean-[ServletRegistrationBean.java:190]-Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-18 23:06:37 [localhost-startStop-1] INFO 	o.s.b.w.s.FilterRegistrationBean-[AbstractFilterRegistrationBean.java:258]-Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-09-18 23:06:37 [localhost-startStop-1] INFO 	o.s.b.w.s.FilterRegistrationBean-[AbstractFilterRegistrationBean.java:258]-Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-09-18 23:06:37 [localhost-startStop-1] INFO 	o.s.b.w.s.FilterRegistrationBean-[AbstractFilterRegistrationBean.java:258]-Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-09-18 23:06:37 [localhost-startStop-1] INFO 	o.s.b.w.s.FilterRegistrationBean-[AbstractFilterRegistrationBean.java:258]-Mapping filter: 'requestContextFilter' to: [/*]
+2017-09-18 23:06:37 [main] INFO 	o.s.w.s.m.m.a.RequestMappingHandlerAdapter-[RequestMappingHandlerAdapter.java:534]-Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1a0dcaa: startup date [Mon Sep 18 23:06:36 IST 2017]; root of context hierarchy
+2017-09-18 23:06:37 [main] INFO 	o.s.w.s.m.m.a.RequestMappingHandlerMapping-[AbstractHandlerMethodMapping.java:543]-Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-18 23:06:37 [main] INFO 	o.s.w.s.m.m.a.RequestMappingHandlerMapping-[AbstractHandlerMethodMapping.java:543]-Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-18 23:06:37 [main] INFO 	o.s.w.s.h.SimpleUrlHandlerMapping-[AbstractUrlHandlerMapping.java:362]-Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-18 23:06:37 [main] INFO 	o.s.w.s.h.SimpleUrlHandlerMapping-[AbstractUrlHandlerMapping.java:362]-Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-18 23:06:38 [main] INFO 	o.s.w.s.h.SimpleUrlHandlerMapping-[AbstractUrlHandlerMapping.java:362]-Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-18 23:06:38 [main] INFO 	o.s.b.a.w.WebMvcAutoConfiguration$WelcomePageHandlerMapping-[WebMvcAutoConfiguration.java:549]-Adding welcome page: class path resource [static/index.html]
+2017-09-18 23:06:38 [main] INFO 	o.s.j.e.a.AnnotationMBeanExporter-[MBeanExporter.java:431]-Registering beans for JMX exposure on startup
+2017-09-18 23:06:38 [main] INFO 	o.a.coyote.http11.Http11NioProtocol-[DirectJDKLog.java:179]-Initializing ProtocolHandler ["http-nio-8656"]
+2017-09-18 23:06:38 [main] INFO 	o.a.coyote.http11.Http11NioProtocol-[DirectJDKLog.java:179]-Starting ProtocolHandler ["http-nio-8656"]
+2017-09-18 23:06:38 [main] INFO 	o.a.tomcat.util.net.NioSelectorPool-[DirectJDKLog.java:179]-Using a shared selector for servlet write/read
+2017-09-18 23:06:38 [main] INFO 	o.s.b.c.e.t.TomcatEmbeddedServletContainer-[TomcatEmbeddedServletContainer.java:201]-Tomcat started on port(s): 8656 (http)
+2017-09-18 23:06:38 [main] INFO 	com.erp.erp.ErpApplication-[StartupInfoLogger.java:57]-Started ErpApplication in 2.517 seconds (JVM running for 2.795)
+2017-09-18 23:06:41 [http-nio-8656-exec-1] INFO 	o.a.c.c.C.[.[localhost].[/erp]-[DirectJDKLog.java:179]-Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-09-18 23:06:41 [http-nio-8656-exec-1] INFO 	o.s.web.servlet.DispatcherServlet-[FrameworkServlet.java:489]-FrameworkServlet 'dispatcherServlet': initialization started
+2017-09-18 23:06:41 [http-nio-8656-exec-1] INFO 	o.s.web.servlet.DispatcherServlet-[FrameworkServlet.java:508]-FrameworkServlet 'dispatcherServlet': initialization completed in 12 ms
+2017-09-18 23:31:08 [Thread-3] INFO 	o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext-[AbstractApplicationContext.java:984]-Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1a0dcaa: startup date [Mon Sep 18 23:06:36 IST 2017]; root of context hierarchy
+2017-09-18 23:31:08 [Thread-3] INFO 	o.s.j.e.a.AnnotationMBeanExporter-[MBeanExporter.java:449]-Unregistering JMX-exposed beans on shutdown
+2017-09-18 23:31:12 [main] INFO 	com.erp.erp.ErpApplication-[StartupInfoLogger.java:48]-Starting ErpApplication on harshit-ubuntu with PID 10296 (/home/harshit/ERP/erp/target/classes started by harshit in /home/harshit/ERP/erp)
+2017-09-18 23:31:12 [main] INFO 	com.erp.erp.ErpApplication-[SpringApplication.java:593]-No active profile set, falling back to default profiles: default
+2017-09-18 23:31:12 [main] INFO 	o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext-[AbstractApplicationContext.java:583]-Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1a0dcaa: startup date [Mon Sep 18 23:31:12 IST 2017]; root of context hierarchy
+2017-09-18 23:31:12 [background-preinit] INFO 	o.h.validator.internal.util.Version-[Version.java:30]-HV000001: Hibernate Validator 5.3.5.Final
+2017-09-18 23:31:13 [main] INFO 	o.s.b.c.e.t.TomcatEmbeddedServletContainer-[TomcatEmbeddedServletContainer.java:89]-Tomcat initialized with port(s): 8656 (http)
+2017-09-18 23:31:13 [main] INFO 	o.a.catalina.core.StandardService-[DirectJDKLog.java:179]-Starting service [Tomcat]
+2017-09-18 23:31:13 [main] INFO 	o.a.catalina.core.StandardEngine-[DirectJDKLog.java:179]-Starting Servlet Engine: Apache Tomcat/8.5.20
+2017-09-18 23:31:13 [localhost-startStop-1] INFO 	o.a.c.c.C.[.[localhost].[/erp]-[DirectJDKLog.java:179]-Initializing Spring embedded WebApplicationContext
+2017-09-18 23:31:13 [localhost-startStop-1] INFO 	o.s.web.context.ContextLoader-[EmbeddedWebApplicationContext.java:276]-Root WebApplicationContext: initialization completed in 1532 ms
+2017-09-18 23:31:14 [localhost-startStop-1] INFO 	o.s.b.w.s.ServletRegistrationBean-[ServletRegistrationBean.java:190]-Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-18 23:31:14 [localhost-startStop-1] INFO 	o.s.b.w.s.FilterRegistrationBean-[AbstractFilterRegistrationBean.java:258]-Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-09-18 23:31:14 [localhost-startStop-1] INFO 	o.s.b.w.s.FilterRegistrationBean-[AbstractFilterRegistrationBean.java:258]-Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-09-18 23:31:14 [localhost-startStop-1] INFO 	o.s.b.w.s.FilterRegistrationBean-[AbstractFilterRegistrationBean.java:258]-Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-09-18 23:31:14 [localhost-startStop-1] INFO 	o.s.b.w.s.FilterRegistrationBean-[AbstractFilterRegistrationBean.java:258]-Mapping filter: 'requestContextFilter' to: [/*]
+2017-09-18 23:31:14 [main] INFO 	o.s.w.s.m.m.a.RequestMappingHandlerAdapter-[RequestMappingHandlerAdapter.java:534]-Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1a0dcaa: startup date [Mon Sep 18 23:31:12 IST 2017]; root of context hierarchy
+2017-09-18 23:31:14 [main] INFO 	o.s.w.s.m.m.a.RequestMappingHandlerMapping-[AbstractHandlerMethodMapping.java:543]-Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-18 23:31:14 [main] INFO 	o.s.w.s.m.m.a.RequestMappingHandlerMapping-[AbstractHandlerMethodMapping.java:543]-Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-18 23:31:14 [main] INFO 	o.s.w.s.h.SimpleUrlHandlerMapping-[AbstractUrlHandlerMapping.java:362]-Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-18 23:31:14 [main] INFO 	o.s.w.s.h.SimpleUrlHandlerMapping-[AbstractUrlHandlerMapping.java:362]-Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-18 23:31:14 [main] INFO 	o.s.w.s.h.SimpleUrlHandlerMapping-[AbstractUrlHandlerMapping.java:362]-Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-18 23:31:14 [main] INFO 	o.s.b.a.w.WebMvcAutoConfiguration$WelcomePageHandlerMapping-[WebMvcAutoConfiguration.java:549]-Adding welcome page: class path resource [static/index.html]
+2017-09-18 23:31:15 [main] INFO 	o.s.j.e.a.AnnotationMBeanExporter-[MBeanExporter.java:431]-Registering beans for JMX exposure on startup
+2017-09-18 23:31:15 [main] INFO 	o.a.coyote.http11.Http11NioProtocol-[DirectJDKLog.java:179]-Initializing ProtocolHandler ["http-nio-8656"]
+2017-09-18 23:31:15 [main] INFO 	o.a.coyote.http11.Http11NioProtocol-[DirectJDKLog.java:179]-Starting ProtocolHandler ["http-nio-8656"]
+2017-09-18 23:31:15 [main] INFO 	o.a.tomcat.util.net.NioSelectorPool-[DirectJDKLog.java:179]-Using a shared selector for servlet write/read
+2017-09-18 23:31:15 [main] INFO 	o.s.b.c.e.t.TomcatEmbeddedServletContainer-[TomcatEmbeddedServletContainer.java:201]-Tomcat started on port(s): 8656 (http)
+2017-09-18 23:31:15 [main] INFO 	com.erp.erp.ErpApplication-[StartupInfoLogger.java:57]-Started ErpApplication in 3.169 seconds (JVM running for 3.48)
+2017-09-18 23:31:54 [http-nio-8656-exec-1] INFO 	o.a.c.c.C.[.[localhost].[/erp]-[DirectJDKLog.java:179]-Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-09-18 23:31:54 [http-nio-8656-exec-1] INFO 	o.s.web.servlet.DispatcherServlet-[FrameworkServlet.java:489]-FrameworkServlet 'dispatcherServlet': initialization started
+2017-09-18 23:31:54 [http-nio-8656-exec-1] INFO 	o.s.web.servlet.DispatcherServlet-[FrameworkServlet.java:508]-FrameworkServlet 'dispatcherServlet': initialization completed in 15 ms
+2017-09-19 10:21:59 [Thread-3] INFO 	o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext-[AbstractApplicationContext.java:984]-Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1a0dcaa: startup date [Mon Sep 18 23:31:12 IST 2017]; root of context hierarchy
+2017-09-19 10:21:59 [Thread-3] INFO 	o.s.j.e.a.AnnotationMBeanExporter-[MBeanExporter.java:449]-Unregistering JMX-exposed beans on shutdown
+2017-09-20 21:58:57 [main] INFO 	com.erp.erp.ErpApplication-[StartupInfoLogger.java:48]-Starting ErpApplication on harshit-ubuntu with PID 23596 (/home/harshit/ERP/erp/target/classes started by harshit in /home/harshit/ERP/erp)
+2017-09-20 21:58:57 [main] INFO 	com.erp.erp.ErpApplication-[StartupInfoLogger.java:48]-Starting ErpApplication on harshit-ubuntu with PID 23616 (/home/harshit/ERP/erp/target/classes started by harshit in /home/harshit/ERP/erp)
+2017-09-20 21:58:57 [main] INFO 	com.erp.erp.ErpApplication-[SpringApplication.java:593]-No active profile set, falling back to default profiles: default
+2017-09-20 21:58:57 [main] INFO 	com.erp.erp.ErpApplication-[SpringApplication.java:593]-No active profile set, falling back to default profiles: default
+2017-09-20 21:58:57 [main] INFO 	o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext-[AbstractApplicationContext.java:583]-Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1a0dcaa: startup date [Wed Sep 20 21:58:57 IST 2017]; root of context hierarchy
+2017-09-20 21:58:57 [main] INFO 	o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext-[AbstractApplicationContext.java:583]-Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1a0dcaa: startup date [Wed Sep 20 21:58:57 IST 2017]; root of context hierarchy
+2017-09-20 21:58:58 [background-preinit] INFO 	o.h.validator.internal.util.Version-[Version.java:30]-HV000001: Hibernate Validator 5.3.5.Final
+2017-09-20 21:58:58 [background-preinit] INFO 	o.h.validator.internal.util.Version-[Version.java:30]-HV000001: Hibernate Validator 5.3.5.Final
+2017-09-20 21:59:02 [main] INFO 	o.s.b.c.e.t.TomcatEmbeddedServletContainer-[TomcatEmbeddedServletContainer.java:89]-Tomcat initialized with port(s): 8656 (http)
+2017-09-20 21:59:02 [main] INFO 	o.s.b.c.e.t.TomcatEmbeddedServletContainer-[TomcatEmbeddedServletContainer.java:89]-Tomcat initialized with port(s): 8656 (http)
+2017-09-20 21:59:02 [main] INFO 	o.a.catalina.core.StandardService-[DirectJDKLog.java:179]-Starting service [Tomcat]
+2017-09-20 21:59:02 [main] INFO 	o.a.catalina.core.StandardService-[DirectJDKLog.java:179]-Starting service [Tomcat]
+2017-09-20 21:59:02 [main] INFO 	o.a.catalina.core.StandardEngine-[DirectJDKLog.java:179]-Starting Servlet Engine: Apache Tomcat/8.5.20
+2017-09-20 21:59:02 [main] INFO 	o.a.catalina.core.StandardEngine-[DirectJDKLog.java:179]-Starting Servlet Engine: Apache Tomcat/8.5.20
+2017-09-20 21:59:03 [localhost-startStop-1] INFO 	o.a.c.c.C.[.[localhost].[/erp]-[DirectJDKLog.java:179]-Initializing Spring embedded WebApplicationContext
+2017-09-20 21:59:03 [localhost-startStop-1] INFO 	o.s.web.context.ContextLoader-[EmbeddedWebApplicationContext.java:276]-Root WebApplicationContext: initialization completed in 5684 ms
+2017-09-20 21:59:03 [localhost-startStop-1] INFO 	o.a.c.c.C.[.[localhost].[/erp]-[DirectJDKLog.java:179]-Initializing Spring embedded WebApplicationContext
+2017-09-20 21:59:03 [localhost-startStop-1] INFO 	o.s.web.context.ContextLoader-[EmbeddedWebApplicationContext.java:276]-Root WebApplicationContext: initialization completed in 5676 ms
+2017-09-20 21:59:03 [localhost-startStop-1] INFO 	o.s.b.w.s.ServletRegistrationBean-[ServletRegistrationBean.java:190]-Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-20 21:59:03 [localhost-startStop-1] INFO 	o.s.b.w.s.ServletRegistrationBean-[ServletRegistrationBean.java:190]-Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-20 21:59:03 [localhost-startStop-1] INFO 	o.s.b.w.s.FilterRegistrationBean-[AbstractFilterRegistrationBean.java:258]-Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-09-20 21:59:03 [localhost-startStop-1] INFO 	o.s.b.w.s.FilterRegistrationBean-[AbstractFilterRegistrationBean.java:258]-Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-09-20 21:59:03 [localhost-startStop-1] INFO 	o.s.b.w.s.FilterRegistrationBean-[AbstractFilterRegistrationBean.java:258]-Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-09-20 21:59:03 [localhost-startStop-1] INFO 	o.s.b.w.s.FilterRegistrationBean-[AbstractFilterRegistrationBean.java:258]-Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-09-20 21:59:03 [localhost-startStop-1] INFO 	o.s.b.w.s.FilterRegistrationBean-[AbstractFilterRegistrationBean.java:258]-Mapping filter: 'requestContextFilter' to: [/*]
+2017-09-20 21:59:03 [localhost-startStop-1] INFO 	o.s.b.w.s.FilterRegistrationBean-[AbstractFilterRegistrationBean.java:258]-Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-09-20 21:59:03 [localhost-startStop-1] INFO 	o.s.b.w.s.FilterRegistrationBean-[AbstractFilterRegistrationBean.java:258]-Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-09-20 21:59:03 [localhost-startStop-1] INFO 	o.s.b.w.s.FilterRegistrationBean-[AbstractFilterRegistrationBean.java:258]-Mapping filter: 'requestContextFilter' to: [/*]
+2017-09-20 21:59:04 [main] INFO 	o.s.w.s.m.m.a.RequestMappingHandlerAdapter-[RequestMappingHandlerAdapter.java:534]-Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1a0dcaa: startup date [Wed Sep 20 21:58:57 IST 2017]; root of context hierarchy
+2017-09-20 21:59:04 [main] INFO 	o.s.w.s.m.m.a.RequestMappingHandlerAdapter-[RequestMappingHandlerAdapter.java:534]-Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1a0dcaa: startup date [Wed Sep 20 21:58:57 IST 2017]; root of context hierarchy
+2017-09-20 21:59:04 [main] INFO 	o.s.w.s.m.m.a.RequestMappingHandlerMapping-[AbstractHandlerMethodMapping.java:543]-Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-20 21:59:04 [main] INFO 	o.s.w.s.m.m.a.RequestMappingHandlerMapping-[AbstractHandlerMethodMapping.java:543]-Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-20 21:59:04 [main] INFO 	o.s.w.s.h.SimpleUrlHandlerMapping-[AbstractUrlHandlerMapping.java:362]-Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-20 21:59:04 [main] INFO 	o.s.w.s.h.SimpleUrlHandlerMapping-[AbstractUrlHandlerMapping.java:362]-Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-20 21:59:04 [main] INFO 	o.s.w.s.h.SimpleUrlHandlerMapping-[AbstractUrlHandlerMapping.java:362]-Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-20 21:59:04 [main] INFO 	o.s.w.s.m.m.a.RequestMappingHandlerMapping-[AbstractHandlerMethodMapping.java:543]-Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-20 21:59:04 [main] INFO 	o.s.w.s.m.m.a.RequestMappingHandlerMapping-[AbstractHandlerMethodMapping.java:543]-Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-20 21:59:04 [main] INFO 	o.s.b.a.w.WebMvcAutoConfiguration$WelcomePageHandlerMapping-[WebMvcAutoConfiguration.java:549]-Adding welcome page: class path resource [static/index.html]
+2017-09-20 21:59:04 [main] INFO 	o.s.w.s.h.SimpleUrlHandlerMapping-[AbstractUrlHandlerMapping.java:362]-Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-20 21:59:04 [main] INFO 	o.s.w.s.h.SimpleUrlHandlerMapping-[AbstractUrlHandlerMapping.java:362]-Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-20 21:59:04 [main] INFO 	o.s.w.s.h.SimpleUrlHandlerMapping-[AbstractUrlHandlerMapping.java:362]-Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-20 21:59:05 [main] INFO 	o.s.b.a.w.WebMvcAutoConfiguration$WelcomePageHandlerMapping-[WebMvcAutoConfiguration.java:549]-Adding welcome page: class path resource [static/index.html]
+2017-09-20 21:59:05 [main] INFO 	o.s.j.e.a.AnnotationMBeanExporter-[MBeanExporter.java:431]-Registering beans for JMX exposure on startup
+2017-09-20 21:59:05 [main] INFO 	o.a.coyote.http11.Http11NioProtocol-[DirectJDKLog.java:179]-Initializing ProtocolHandler ["http-nio-8656"]
+2017-09-20 21:59:05 [main] INFO 	o.a.coyote.http11.Http11NioProtocol-[DirectJDKLog.java:179]-Starting ProtocolHandler ["http-nio-8656"]
+2017-09-20 21:59:05 [main] INFO 	o.s.j.e.a.AnnotationMBeanExporter-[MBeanExporter.java:431]-Registering beans for JMX exposure on startup
+2017-09-20 21:59:05 [main] INFO 	o.a.coyote.http11.Http11NioProtocol-[DirectJDKLog.java:179]-Initializing ProtocolHandler ["http-nio-8656"]
+2017-09-20 21:59:05 [main] INFO 	o.a.coyote.http11.Http11NioProtocol-[DirectJDKLog.java:179]-Starting ProtocolHandler ["http-nio-8656"]
+2017-09-20 21:59:05 [main] ERROR	o.a.coyote.http11.Http11NioProtocol-[DirectJDKLog.java:181]-Failed to start end point associated with ProtocolHandler ["http-nio-8656"]
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:990)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:635)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1022)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:250)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:193)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.erp.erp.ErpApplication.main(ErpApplication.java:16)
+2017-09-20 21:59:05 [main] ERROR	o.a.catalina.core.StandardService-[DirectJDKLog.java:181]-Failed to start connector [Connector[HTTP/1.1-8656]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8656]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:250)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:193)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.erp.erp.ErpApplication.main(ErpApplication.java:16)
+Caused by: org.apache.catalina.LifecycleException: service.getName(): "Tomcat";  Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1029)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 common frames omitted
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:990)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:635)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1022)
+	... 14 common frames omitted
+2017-09-20 21:59:05 [main] INFO 	o.a.tomcat.util.net.NioSelectorPool-[DirectJDKLog.java:179]-Using a shared selector for servlet write/read
+2017-09-20 21:59:05 [main] INFO 	o.a.coyote.http11.Http11NioProtocol-[DirectJDKLog.java:179]-Pausing ProtocolHandler ["http-nio-8656"]
+2017-09-20 21:59:05 [main] INFO 	o.a.catalina.core.StandardService-[DirectJDKLog.java:179]-Stopping service [Tomcat]
+2017-09-20 21:59:05 [main] INFO 	o.apache.catalina.util.LifecycleBase-[DirectJDKLog.java:179]-The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2017-09-20 21:59:05 [main] INFO 	o.a.coyote.http11.Http11NioProtocol-[DirectJDKLog.java:179]-Stopping ProtocolHandler ["http-nio-8656"]
+2017-09-20 21:59:05 [main] INFO 	o.a.coyote.http11.Http11NioProtocol-[DirectJDKLog.java:179]-Destroying ProtocolHandler ["http-nio-8656"]
+2017-09-20 21:59:05 [main] INFO 	o.s.b.a.l.AutoConfigurationReportLoggingInitializer-[AutoConfigurationReportLoggingInitializer.java:101]-
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-09-20 21:59:05 [main] ERROR	o.s.b.d.LoggingFailureAnalysisReporter-[LoggingFailureAnalysisReporter.java:42]-
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8656 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8656, or configure this application to listen on another port.
+
+2017-09-20 21:59:05 [main] INFO 	o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext-[AbstractApplicationContext.java:984]-Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1a0dcaa: startup date [Wed Sep 20 21:58:57 IST 2017]; root of context hierarchy
+2017-09-20 21:59:05 [main] INFO 	o.s.b.c.e.t.TomcatEmbeddedServletContainer-[TomcatEmbeddedServletContainer.java:201]-Tomcat started on port(s): 8656 (http)
+2017-09-20 21:59:05 [main] INFO 	o.s.j.e.a.AnnotationMBeanExporter-[MBeanExporter.java:449]-Unregistering JMX-exposed beans on shutdown
+2017-09-20 21:59:05 [main] INFO 	com.erp.erp.ErpApplication-[StartupInfoLogger.java:57]-Started ErpApplication in 10.713 seconds (JVM running for 11.771)
+2017-09-20 21:59:38 [http-nio-8656-exec-10] INFO 	o.a.c.c.C.[.[localhost].[/erp]-[DirectJDKLog.java:179]-Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-09-20 21:59:38 [http-nio-8656-exec-10] INFO 	o.s.web.servlet.DispatcherServlet-[FrameworkServlet.java:489]-FrameworkServlet 'dispatcherServlet': initialization started
+2017-09-20 21:59:38 [http-nio-8656-exec-10] INFO 	o.s.web.servlet.DispatcherServlet-[FrameworkServlet.java:508]-FrameworkServlet 'dispatcherServlet': initialization completed in 21 ms
+2017-09-20 22:15:15 [Thread-3] INFO 	o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext-[AbstractApplicationContext.java:984]-Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1a0dcaa: startup date [Wed Sep 20 21:58:57 IST 2017]; root of context hierarchy
+2017-09-20 22:15:15 [Thread-3] INFO 	o.s.j.e.a.AnnotationMBeanExporter-[MBeanExporter.java:449]-Unregistering JMX-exposed beans on shutdown
+2017-09-20 22:15:19 [main] INFO 	com.erp.erp.ErpApplication-[StartupInfoLogger.java:48]-Starting ErpApplication on harshit-ubuntu with PID 24335 (/home/harshit/ERP/erp/target/classes started by harshit in /home/harshit/ERP/erp)
+2017-09-20 22:15:19 [main] INFO 	com.erp.erp.ErpApplication-[SpringApplication.java:593]-No active profile set, falling back to default profiles: default
+2017-09-20 22:15:19 [main] INFO 	o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext-[AbstractApplicationContext.java:583]-Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1a0dcaa: startup date [Wed Sep 20 22:15:19 IST 2017]; root of context hierarchy
+2017-09-20 22:15:19 [background-preinit] INFO 	o.h.validator.internal.util.Version-[Version.java:30]-HV000001: Hibernate Validator 5.3.5.Final
+2017-09-20 22:15:21 [main] INFO 	o.s.b.c.e.t.TomcatEmbeddedServletContainer-[TomcatEmbeddedServletContainer.java:89]-Tomcat initialized with port(s): 8656 (http)
+2017-09-20 22:15:21 [main] INFO 	o.a.catalina.core.StandardService-[DirectJDKLog.java:179]-Starting service [Tomcat]
+2017-09-20 22:15:21 [main] INFO 	o.a.catalina.core.StandardEngine-[DirectJDKLog.java:179]-Starting Servlet Engine: Apache Tomcat/8.5.20
+2017-09-20 22:15:21 [localhost-startStop-1] INFO 	o.a.c.c.C.[.[localhost].[/erp]-[DirectJDKLog.java:179]-Initializing Spring embedded WebApplicationContext
+2017-09-20 22:15:21 [localhost-startStop-1] INFO 	o.s.web.context.ContextLoader-[EmbeddedWebApplicationContext.java:276]-Root WebApplicationContext: initialization completed in 1633 ms
+2017-09-20 22:15:21 [localhost-startStop-1] INFO 	o.s.b.w.s.ServletRegistrationBean-[ServletRegistrationBean.java:190]-Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-20 22:15:21 [localhost-startStop-1] INFO 	o.s.b.w.s.FilterRegistrationBean-[AbstractFilterRegistrationBean.java:258]-Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-09-20 22:15:21 [localhost-startStop-1] INFO 	o.s.b.w.s.FilterRegistrationBean-[AbstractFilterRegistrationBean.java:258]-Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-09-20 22:15:21 [localhost-startStop-1] INFO 	o.s.b.w.s.FilterRegistrationBean-[AbstractFilterRegistrationBean.java:258]-Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-09-20 22:15:21 [localhost-startStop-1] INFO 	o.s.b.w.s.FilterRegistrationBean-[AbstractFilterRegistrationBean.java:258]-Mapping filter: 'requestContextFilter' to: [/*]
+2017-09-20 22:15:22 [main] INFO 	o.s.w.s.m.m.a.RequestMappingHandlerAdapter-[RequestMappingHandlerAdapter.java:534]-Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1a0dcaa: startup date [Wed Sep 20 22:15:19 IST 2017]; root of context hierarchy
+2017-09-20 22:15:22 [main] INFO 	o.s.w.s.m.m.a.RequestMappingHandlerMapping-[AbstractHandlerMethodMapping.java:543]-Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-20 22:15:22 [main] INFO 	o.s.w.s.m.m.a.RequestMappingHandlerMapping-[AbstractHandlerMethodMapping.java:543]-Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-20 22:15:22 [main] INFO 	o.s.w.s.h.SimpleUrlHandlerMapping-[AbstractUrlHandlerMapping.java:362]-Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-20 22:15:22 [main] INFO 	o.s.w.s.h.SimpleUrlHandlerMapping-[AbstractUrlHandlerMapping.java:362]-Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-20 22:15:22 [main] INFO 	o.s.w.s.h.SimpleUrlHandlerMapping-[AbstractUrlHandlerMapping.java:362]-Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-20 22:15:22 [main] INFO 	o.s.b.a.w.WebMvcAutoConfiguration$WelcomePageHandlerMapping-[WebMvcAutoConfiguration.java:549]-Adding welcome page: class path resource [static/index.html]
+2017-09-20 22:15:22 [main] INFO 	o.s.j.e.a.AnnotationMBeanExporter-[MBeanExporter.java:431]-Registering beans for JMX exposure on startup
+2017-09-20 22:15:22 [main] INFO 	o.a.coyote.http11.Http11NioProtocol-[DirectJDKLog.java:179]-Initializing ProtocolHandler ["http-nio-8656"]
+2017-09-20 22:15:22 [main] INFO 	o.a.coyote.http11.Http11NioProtocol-[DirectJDKLog.java:179]-Starting ProtocolHandler ["http-nio-8656"]
+2017-09-20 22:15:22 [main] INFO 	o.a.tomcat.util.net.NioSelectorPool-[DirectJDKLog.java:179]-Using a shared selector for servlet write/read
+2017-09-20 22:15:22 [main] INFO 	o.s.b.c.e.t.TomcatEmbeddedServletContainer-[TomcatEmbeddedServletContainer.java:201]-Tomcat started on port(s): 8656 (http)
+2017-09-20 22:15:22 [main] INFO 	com.erp.erp.ErpApplication-[StartupInfoLogger.java:57]-Started ErpApplication in 3.211 seconds (JVM running for 3.575)
+2017-09-20 22:15:48 [http-nio-8656-exec-1] INFO 	o.a.c.c.C.[.[localhost].[/erp]-[DirectJDKLog.java:179]-Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-09-20 22:15:48 [http-nio-8656-exec-1] INFO 	o.s.web.servlet.DispatcherServlet-[FrameworkServlet.java:489]-FrameworkServlet 'dispatcherServlet': initialization started
+2017-09-20 22:15:48 [http-nio-8656-exec-1] INFO 	o.s.web.servlet.DispatcherServlet-[FrameworkServlet.java:508]-FrameworkServlet 'dispatcherServlet': initialization completed in 11 ms
+2017-09-20 22:33:07 [Thread-3] INFO 	o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext-[AbstractApplicationContext.java:984]-Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1a0dcaa: startup date [Wed Sep 20 22:15:19 IST 2017]; root of context hierarchy
+2017-09-20 22:33:07 [Thread-3] INFO 	o.s.j.e.a.AnnotationMBeanExporter-[MBeanExporter.java:449]-Unregistering JMX-exposed beans on shutdown
+2017-09-20 22:33:11 [main] INFO 	com.erp.erp.ErpApplication-[StartupInfoLogger.java:48]-Starting ErpApplication on harshit-ubuntu with PID 25316 (/home/harshit/ERP/erp/target/classes started by harshit in /home/harshit/ERP/erp)
+2017-09-20 22:33:11 [main] INFO 	com.erp.erp.ErpApplication-[SpringApplication.java:593]-No active profile set, falling back to default profiles: default
+2017-09-20 22:33:11 [main] INFO 	o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext-[AbstractApplicationContext.java:583]-Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1a0dcaa: startup date [Wed Sep 20 22:33:11 IST 2017]; root of context hierarchy
+2017-09-20 22:33:11 [background-preinit] INFO 	o.h.validator.internal.util.Version-[Version.java:30]-HV000001: Hibernate Validator 5.3.5.Final
+2017-09-20 22:33:12 [main] INFO 	o.s.b.c.e.t.TomcatEmbeddedServletContainer-[TomcatEmbeddedServletContainer.java:89]-Tomcat initialized with port(s): 8656 (http)
+2017-09-20 22:33:12 [main] INFO 	o.a.catalina.core.StandardService-[DirectJDKLog.java:179]-Starting service [Tomcat]
+2017-09-20 22:33:12 [main] INFO 	o.a.catalina.core.StandardEngine-[DirectJDKLog.java:179]-Starting Servlet Engine: Apache Tomcat/8.5.20
+2017-09-20 22:33:12 [localhost-startStop-1] INFO 	o.a.c.c.C.[.[localhost].[/erp]-[DirectJDKLog.java:179]-Initializing Spring embedded WebApplicationContext
+2017-09-20 22:33:12 [localhost-startStop-1] INFO 	o.s.web.context.ContextLoader-[EmbeddedWebApplicationContext.java:276]-Root WebApplicationContext: initialization completed in 1525 ms
+2017-09-20 22:33:12 [localhost-startStop-1] INFO 	o.s.b.w.s.ServletRegistrationBean-[ServletRegistrationBean.java:190]-Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-20 22:33:12 [localhost-startStop-1] INFO 	o.s.b.w.s.FilterRegistrationBean-[AbstractFilterRegistrationBean.java:258]-Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-09-20 22:33:12 [localhost-startStop-1] INFO 	o.s.b.w.s.FilterRegistrationBean-[AbstractFilterRegistrationBean.java:258]-Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-09-20 22:33:12 [localhost-startStop-1] INFO 	o.s.b.w.s.FilterRegistrationBean-[AbstractFilterRegistrationBean.java:258]-Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-09-20 22:33:12 [localhost-startStop-1] INFO 	o.s.b.w.s.FilterRegistrationBean-[AbstractFilterRegistrationBean.java:258]-Mapping filter: 'requestContextFilter' to: [/*]
+2017-09-20 22:33:13 [main] INFO 	o.s.w.s.m.m.a.RequestMappingHandlerAdapter-[RequestMappingHandlerAdapter.java:534]-Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1a0dcaa: startup date [Wed Sep 20 22:33:11 IST 2017]; root of context hierarchy
+2017-09-20 22:33:13 [main] INFO 	o.s.w.s.m.m.a.RequestMappingHandlerMapping-[AbstractHandlerMethodMapping.java:543]-Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-20 22:33:13 [main] INFO 	o.s.w.s.m.m.a.RequestMappingHandlerMapping-[AbstractHandlerMethodMapping.java:543]-Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-20 22:33:13 [main] INFO 	o.s.w.s.h.SimpleUrlHandlerMapping-[AbstractUrlHandlerMapping.java:362]-Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-20 22:33:13 [main] INFO 	o.s.w.s.h.SimpleUrlHandlerMapping-[AbstractUrlHandlerMapping.java:362]-Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-20 22:33:13 [main] INFO 	o.s.w.s.h.SimpleUrlHandlerMapping-[AbstractUrlHandlerMapping.java:362]-Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-20 22:33:13 [main] INFO 	o.s.b.a.w.WebMvcAutoConfiguration$WelcomePageHandlerMapping-[WebMvcAutoConfiguration.java:549]-Adding welcome page: class path resource [static/index.html]
+2017-09-20 22:33:13 [main] INFO 	o.s.j.e.a.AnnotationMBeanExporter-[MBeanExporter.java:431]-Registering beans for JMX exposure on startup
+2017-09-20 22:33:13 [main] INFO 	o.a.coyote.http11.Http11NioProtocol-[DirectJDKLog.java:179]-Initializing ProtocolHandler ["http-nio-8656"]
+2017-09-20 22:33:13 [main] INFO 	o.a.coyote.http11.Http11NioProtocol-[DirectJDKLog.java:179]-Starting ProtocolHandler ["http-nio-8656"]
+2017-09-20 22:33:13 [main] INFO 	o.a.tomcat.util.net.NioSelectorPool-[DirectJDKLog.java:179]-Using a shared selector for servlet write/read
+2017-09-20 22:33:13 [main] INFO 	o.s.b.c.e.t.TomcatEmbeddedServletContainer-[TomcatEmbeddedServletContainer.java:201]-Tomcat started on port(s): 8656 (http)
+2017-09-20 22:33:13 [main] INFO 	com.erp.erp.ErpApplication-[StartupInfoLogger.java:57]-Started ErpApplication in 3.34 seconds (JVM running for 3.587)
+2017-09-20 22:33:17 [http-nio-8656-exec-1] INFO 	o.a.c.c.C.[.[localhost].[/erp]-[DirectJDKLog.java:179]-Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-09-20 22:33:17 [http-nio-8656-exec-1] INFO 	o.s.web.servlet.DispatcherServlet-[FrameworkServlet.java:489]-FrameworkServlet 'dispatcherServlet': initialization started
+2017-09-20 22:33:17 [http-nio-8656-exec-1] INFO 	o.s.web.servlet.DispatcherServlet-[FrameworkServlet.java:508]-FrameworkServlet 'dispatcherServlet': initialization completed in 19 ms
