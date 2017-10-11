@@ -12,6 +12,7 @@ $urlRouterProvider.otherwise("/home");
                     },
                     'menu': {
                         templateUrl: 'view/header/menu.html',
+                        controller : 'menuCtrl'
                     },
                     'footer': {
                         templateUrl: 'view/header/footer.html',
@@ -23,6 +24,48 @@ $urlRouterProvider.otherwise("/home");
                 views: {
                     'content@home': {
                         templateUrl: "view/login/login.html",
+                    }
+                }
+            }).state("home.customers", {
+                url: '/master/customers',
+                views: {
+                    'content@home': {
+                        templateUrl: "view/masters/htmls/customers.html",
+                    }
+                }
+            }).state("home.route", {
+                url: '/master/route',
+                views: {
+                    'content@home': {
+                        templateUrl: "view/masters/htmls/route.html",
+                    }
+                }
+            }).state("home.categories", {
+                url: '/master/categories',
+                views: {
+                    'content@home': {
+                        templateUrl: "view/masters/htmls/categories.html",
+                    }
+                }
+            }).state("home.products", {
+                url: '/master/products',
+                views: {
+                    'content@home': {
+                        templateUrl: "view/masters/htmls/products.html",
+                    }
+                }
+            }).state("home.accounts", {
+                url: '/master/accounts',
+                views: {
+                    'content@home': {
+                        templateUrl: "view/masters/htmls/accounts.html",
+                    }
+                }
+            }).state("home.companies", {
+                url: '/master/companies',
+                views: {
+                    'content@home': {
+                        templateUrl: "view/masters/htmls/companies.html",
                     }
                 }
             });

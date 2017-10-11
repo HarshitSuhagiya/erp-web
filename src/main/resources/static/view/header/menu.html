@@ -1,3 +1,7 @@
+
+<style>
+.addToggle {display: block !important;}
+</style>
 <div class="main-container ace-save-state" id="main-container">
 	<script type="text/javascript">
 		try {
@@ -6,7 +10,9 @@
 		}
 	</script>
 
-<div id="sidebar" class="sidebar responsive ace-save-state" data-sidebar="true" data-sidebar-scroll="true" data-sidebar-hover="true">
+	<div id="sidebar" class="sidebar responsive ace-save-state"
+		data-sidebar="true" data-sidebar-scroll="true"
+		data-sidebar-hover="true">
 		<script type="text/javascript">
 			try {
 				ace.settings.loadState('sidebar')
@@ -14,18 +20,44 @@
 			}
 		</script>
 		<ul class="nav nav-list">
-			<li class="active"><a href="index.html"> <i
+			<li ng-class="{{menu.class}}" data-ng-repeat="menu in menuList">
+				<!-- WITHOUT CHILD MENU --> 
+				<a ng-if="menu.subList.length <= 0"
+					href="javascript:void(0)" > <i class="menu-icon {{menu.icon}}"></i> <span
+					class="menu-text"> {{menu.value}} </span>
+				</a> 
+			
+				<!-- WITH CHILD MENU --> 
+				
+				<a ng-if="menu.subList.length > 0" href="javascript:void(0)" ng-click="menu.toggel != menu.toggel" class="dropdown-toggle"> <i
+					class="menu-icon {{menu.icon}}"></i> <span class="menu-text">
+						{{menu.value}} </span> <b class="arrow fa fa-angle-down"></b>
+				</a> <b class="arrow"></b>
+				<ul ng-if="menu.subList.length > 0" class="submenu" ng-class="{'addToggle' : menu.toggel}">
+					<li ng-repeat="submenu in menu.subList">
+					<a href="javascript:void(0)"> <i class="menu-icon {{menu.icon}}"></i>
+							{{submenu.value}}
+					</a> <b class="arrow"></b></li>
+				</ul>
+			</li>
+
+
+
+
+			<!-- <li class="active"><a href="index.html"> <i
 					class="menu-icon fa fa-tachometer"></i> <span class="menu-text">
 						Dashboard </span>
 			</a> <b class="arrow"></b></li>
 
-			<li class=""><a href="javascript:void(0)" class="dropdown-toggle"> <i
-					class="menu-icon fa fa-desktop"></i> <span class="menu-text">
-						UI &amp; Elements </span> <b class="arrow fa fa-angle-down"></b>
+			<li class=""><a href="javascript:void(0)"
+				class="dropdown-toggle"> <i class="menu-icon fa fa-desktop"></i>
+					<span class="menu-text"> UI &amp; Elements </span> <b
+					class="arrow fa fa-angle-down"></b>
 			</a> <b class="arrow"></b>
 
 				<ul class="submenu">
-					<li class=""><a href="javascript:void(0)" class="dropdown-toggle"> <i
+					<li class=""><a href="javascript:void(0)"
+						class="dropdown-toggle"> <i
 							class="menu-icon fa fa-caret-right"></i> Layouts <b
 							class="arrow fa fa-angle-down"></b>
 					</a> <b class="arrow"></b>
@@ -126,32 +158,7 @@
 					</a> <b class="arrow"></b></li>
 				</ul></li>
 
-			<li class=""><a href="#" class="dropdown-toggle"> <i
-					class="menu-icon fa fa-pencil-square-o"></i> <span
-					class="menu-text"> Forms </span> <b class="arrow fa fa-angle-down"></b>
-			</a> <b class="arrow"></b>
 
-				<ul class="submenu">
-					<li class=""><a href="form-elements.html"> <i
-							class="menu-icon fa fa-caret-right"></i> Form Elements
-					</a> <b class="arrow"></b></li>
-
-					<li class=""><a href="form-elements-2.html"> <i
-							class="menu-icon fa fa-caret-right"></i> Form Elements 2
-					</a> <b class="arrow"></b></li>
-
-					<li class=""><a href="form-wizard.html"> <i
-							class="menu-icon fa fa-caret-right"></i> Wizard &amp; Validation
-					</a> <b class="arrow"></b></li>
-
-					<li class=""><a href="wysiwyg.html"> <i
-							class="menu-icon fa fa-caret-right"></i> Wysiwyg &amp; Markdown
-					</a> <b class="arrow"></b></li>
-
-					<li class=""><a href="dropzone.html"> <i
-							class="menu-icon fa fa-caret-right"></i> Dropzone File Upload
-					</a> <b class="arrow"></b></li>
-				</ul></li>
 
 			<li class=""><a href="widgets.html"> <i
 					class="menu-icon fa fa-list-alt"></i> <span class="menu-text">
@@ -237,7 +244,7 @@
 					<li class=""><a href="blank.html"> <i
 							class="menu-icon fa fa-caret-right"></i> Blank Page
 					</a> <b class="arrow"></b></li>
-				</ul></li>
+				</ul></li> -->
 		</ul>
 		<!-- /.nav-list -->
 
